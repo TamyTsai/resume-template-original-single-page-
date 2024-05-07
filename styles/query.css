@@ -1,0 +1,22 @@
+@media (max-width: 991px) {
+    body article .container-lg .row .info {
+        width:60%
+    }  /* 將 資訊 與 經歷 區塊 由左右改為垂直排列 */
+    
+    body article .container-lg .row .experience .h2 {
+        text-align: center;
+    } /* 置中顯示「工作經歷」及「專案」標題 */
+    
+}
+
+@media (max-width: 576px) {
+    body article .container-lg .row .info .social-media i {
+        font-size: 1.3em;
+    } /* 避免social-media圖示被擠成兩行 */
+}
+
+@media (max-width: 348px) {
+    body article .container-lg .row .info .social-media i {
+        font-size: 1.1em;
+    } /* 避免social-media圖示被擠成兩行 */
+}
