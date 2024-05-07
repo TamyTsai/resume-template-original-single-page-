@@ -89,7 +89,7 @@
     <article class="mt-3"> <!-- 使用Bootstrap設定margin-top -->
         <!-- 輪播圖 使用Bootstrap 輪播（Carousel）-->
         <header>
-            <div id="carouselExampleCaptions" class="carousel slide">
+            <div id="carouselExampleCaptions" class="carousel slide container-lg"> <!-- RWD breakpoint 以Bootstrap設定為992px（lg） -->
                 <!-- Bootstrap輪播底部按鈕 -->
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -138,19 +138,23 @@
               </div>
         </header>
         <!-- 個人資訊 -->
-        <div class="info">
+        <div class="info container-lg"> <!-- RWD breakpoint 以Bootstrap設定為992px（lg） -->
             <!-- 頭貼與名字 -->
             <div class="avatar-name">
                 <!-- 頭貼 -->
-                <img class="avatar" src="" alt="">
+                <img class="avatar" src="https://fakeimg.pl/200x200/FFA042/FFF/?retina=1&text=頭貼&font=noto" alt="">
                 <!-- 名字 使用Bootsrap字型大小-->
                 <div class="name h1">
-
+                    姓名
                 </div>
             </div>
             <!-- 社群媒體 使用font awesome-->
             <div class="social-media">
-
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-linkedin"></i>
             </div>
              <!-- 技能 使用Bootstrap 表格-->
             <div class="skills table-strip">
