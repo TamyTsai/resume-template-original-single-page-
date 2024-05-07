@@ -14,28 +14,32 @@
     <!-- 導覽列 使用Bootstrap 導覽列（navbar）-->
     <nav class="navbar navbar-expand-xl bg-body-secondary"> <!-- RWD breakpoint 以Bootstrap設定為1200px（xl） --> <!-- 背景顏色 以Bootstrap設定為第二級灰色 --> 
         <div class="container-fluid"> <!-- 以Bootstrap將使此元素 設定在所有breakpoints都佔上層元素100%寬度 -->
+          <!-- Bootstrap Brand -->
           <a class="navbar-brand" href="#">Resume</a>
           <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button> 漢堡選單 -->
+          </button> Bootstrap 漢堡選單 -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- 以Bootstrap設定margin-bottom為2（0～5） -->
+              <!-- 首頁按鈕 Bootstrap純連結按鈕 -->
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">首頁</a>
               </li>
+              <!-- 參與或舉辦之活動 Bootstrap下拉式選單 -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   活動
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">2024資安365年會</a></li>
-                  <li><a class="dropdown-item" href="#">Ruby Conf Taiwan 2023</a></li>
-                  <li><a class="dropdown-item" href="#">活動名稱</a></li>
-                  <li><a class="dropdown-item" href="#">活動名稱</a></li>
+                  <li><a class="dropdown-item" href="#">活動名稱1</a></li>
+                  <li><a class="dropdown-item" href="#">活動名稱2</a></li>
+                  <li><a class="dropdown-item" href="#">活動名稱3</a></li>
+                  <li><a class="dropdown-item" href="#">活動名稱4</a></li>
                   <li><hr class="dropdown-divider"></li> <!-- Bootstrap下拉選單分隔線 -->
                   <li><a class="dropdown-item" href="#">其他更多...</a></li>
                 </ul>
               </li>
+              <!-- 技能 Bootstrap下拉式選單 -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   技能
@@ -47,6 +51,7 @@
                   <li><a class="dropdown-item" href="#">後端框架</a></li>
                 </ul>
               </li>
+              <!-- 工作經歷 Bootstrap下拉式選單 -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   工作經歷
@@ -57,20 +62,23 @@
                   <li><a class="dropdown-item" href="#">第一份工作</a></li>
                 </ul>
               </li>
+              <!-- 專案 Bootstrap下拉式選單 -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   專案
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">專案名稱</a></li>
-                  <li><a class="dropdown-item" href="#">專案名稱</a></li>
-                  <li><a class="dropdown-item" href="#">專案名稱</a></li>
+                  <li><a class="dropdown-item" href="#">專案名稱1</a></li>
+                  <li><a class="dropdown-item" href="#">專案名稱2</a></li>
+                  <li><a class="dropdown-item" href="#">專案名稱3</a></li>
+                  <li><a class="dropdown-item" href="#">專案名稱4</a></li>
                   <li><hr class="dropdown-divider"></li> <!-- Bootstrap下拉選單分隔線 -->
                   <li><a class="dropdown-item" href="#">其他更多...</a></li>
                 </ul>
               </li>
+              <!-- 尚未創建類別按鈕 Bootstrap反灰不可按按鈕 -->
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">尚未創建</a>
+                <a class="nav-link disabled" aria-disabled="true">尚未創建類別</a>
               </li>
             </ul>
           </div>
@@ -78,10 +86,56 @@
     </nav>
 
     <!-- 主要內容 -->
-    <article>
+    <article class="mt-3"> <!-- 使用Bootstrap設定margin-top -->
         <!-- 輪播圖 使用Bootstrap 輪播（Carousel）-->
         <header>
-
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <!-- Bootstrap輪播底部按鈕 -->
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://fakeimg.pl/200x100/?retina=1&text=活動照片1&font=noto" class="d-block w-100" alt="活動照片1">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>活動名稱1</h5>
+                      <p>活動簡述1</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="https://fakeimg.pl/200x100/?retina=1&text=活動照片2&font=noto" class="d-block w-100" alt="活動照片2">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>活動名稱2</h5>
+                      <p>活動簡述2</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="https://fakeimg.pl/200x100/?retina=1&text=活動照片3&font=noto" class="d-block w-100" alt="活動照片3">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>活動名稱3</h5>
+                      <p>活動簡述3</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="https://fakeimg.pl/200x100/?retina=1&text=活動照片4&font=noto" class="d-block w-100" alt="活動照片4">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>活動名稱4</h5>
+                      <p>活動簡述4</p>
+                    </div>
+                  </div>
+                <!-- 使用Bootstrap 輪播左右控制按鈕 -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">上一張</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">下一張</span>
+                </button>
+              </div>
         </header>
         <!-- 個人資訊 -->
         <div class="info">
@@ -91,7 +145,7 @@
                 <img class="avatar" src="" alt="">
                 <!-- 名字 使用Bootsrap字型大小-->
                 <div class="name h1">
-                    
+
                 </div>
             </div>
             <!-- 社群媒體 使用font awesome-->
