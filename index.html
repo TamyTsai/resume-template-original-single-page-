@@ -58,8 +58,8 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">最近一份工作</a></li>
-                  <li><a class="dropdown-item" href="#">第二份工作</a></li>
-                  <li><a class="dropdown-item" href="#">第一份工作</a></li>
+                  <li><a class="dropdown-item" href="#">前一份工作</a></li>
+                  <li><a class="dropdown-item" href="#">前兩份工作</a></li>
                 </ul>
               </li>
               <!-- 專案 Bootstrap下拉式選單 -->
@@ -180,9 +180,51 @@
         <!-- 經歷 -->
         <aside class="experience">
             <!-- 工作經歷 使用Bootstrap 風琴折疊（Accordion）-->
-            <div class="job-experience">
-
-            </div>
+            <div class="h2">工作經歷</div>
+            <div class="job-experience accordion" id="accordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1"> <!-- data-bs-target='點擊後 會展開顯示的內容' -->
+                      最近一份工作（單位 職稱 年資）
+                    </button>
+                  </h2>
+                  <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                      <strong>任職期間（e.g. 2019/10/31-2021/9/13）</strong>
+                      <br>
+                      工作內容、成果簡述
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                      前一份工作（單位 職稱 年資）
+                    </button>
+                  </h2>
+                  <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                      <strong>任職期間（e.g. 2019/10/31-2021/9/13）</strong>
+                      <br>
+                      工作內容、成果簡述
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      前兩份工作（單位 職稱 年資）
+                    </button>
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                      <strong>任職期間（e.g. 2019/10/31-2021/9/13）</strong>
+                      <br>
+                      工作內容、成果簡述
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- GitHub 及 專案 -->
             <div class="GitHub-projects">
                 <!-- GitHub連結按鈕 使用Bootstrap 按鈕 -->
