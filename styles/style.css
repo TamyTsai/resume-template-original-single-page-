@@ -1,0 +1,86 @@
+body article {
+  background-color: #FFFCEC;
+}
+body article header {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+body article .info {
+  border-radius: 10px;
+}
+body article .info .avatar-name .avatar {
+  width: 90%;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+body article .info .avatar-name .Chinese-name {
+  color: #000000;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+body article .info .avatar-name .English-name {
+  color: #6C6C6C;
+  text-align: center;
+  margin-bottom: 30px;
+}
+body article .info .social-media {
+  text-align: center;
+}
+body article .info .social-media i {
+  margin-right: 7px;
+  margin-left: 7px;
+}
+body article .info .social-media .fa-facebook {
+  color: #0866FF;
+  font-size: 1.8em;
+}
+body article .info .social-media .fa-square-instagram {
+  color: #F83646;
+  font-size: 1.8em;
+}
+body article .info .social-media .fa-line {
+  color: #06C253;
+  font-size: 1.8em;
+}
+body article .info .social-media .fa-google {
+  color: gray;
+  font-size: 1.8em;
+}
+body article .info .social-media .fa-linkedin {
+  color: #007AB6;
+  font-size: 1.8em;
+}
+body article .info .skills .h2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+body article .info .skills i {
+  margin-right: 5px;
+}
+body article .experience .job-experience .h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+body article .experience .h2 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+body article .experience .GitHub-projects .projects {
+  margin-top: 10px;
+}
+body footer {
+  padding-bottom: 5px;
+}
+body footer ul li {
+  font-size: 1.2em;
+}
+body footer ul li a {
+  line-height: 20px;
+}
+body footer ul li i {
+  margin-right: 5px;
+}

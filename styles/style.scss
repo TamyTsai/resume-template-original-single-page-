@@ -1,0 +1,133 @@
+body {
+    // 主要內容
+    article { 
+        background-color: #FFFCEC;
+        // 頁首區塊（輪播圖）
+        header {
+            padding-top: 80px;
+            padding-bottom: 30px;
+            .carouse {
+                
+            }
+        }
+        // 個人資訊區塊
+        .info {
+            border-radius: 10px;
+            // 頭貼與名字
+            .avatar-name {
+                // 頭貼
+                .avatar {
+                    width: 90%;
+                    border-radius: 50%;
+                    margin-left: 5%;
+                    margin-right: 5%;
+                    margin-top: 5%;
+                }
+                // 姓名
+                .Chinese-name {
+                    color: 	#000000;
+                    text-align: center;
+                    margin-top: 25px;
+                    margin-bottom: 8px;
+                }
+                .English-name {
+                    color: 	#6C6C6C;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+            }
+            // 社群媒體
+            .social-media {
+                text-align: center;
+                // display: flex;
+                // justify-content: space-around;
+                i {
+                    margin-right: 7px;
+                    margin-left: 7px;
+                }
+                .fa-facebook {
+                    color: #0866FF; 
+                    font-size: 1.8em;
+                 }
+                 .fa-square-instagram {
+                     color: #F83646;
+                    //  color: linear-gradient(225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+                     font-size: 1.8em;
+                 }
+                 .fa-line {
+                    color: #06C253;
+                    font-size: 1.8em;
+                }
+                .fa-google {
+                    color: gray;
+                    font-size: 1.8em;
+                }
+                .fa-linkedin {
+                    color: #007AB6;
+                    font-size: 1.8em;
+                }
+            }
+
+            // 技能 
+            .skills {
+                .h2 {
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                }
+                i {
+                    margin-right: 5px;
+                }
+
+            }
+        }
+        // 經歷
+        .experience {
+            // 工作經歷
+            .job-experience {
+                .h2 {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+            }
+            // GitHub 及 專案
+            .h2 {
+                margin-top: 30px;
+                margin-bottom: 5px;
+            }
+            .GitHub-projects {
+                // GitHub連結按鈕
+                .GitHub {
+
+                }
+                // 專案
+                .projects {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    // 頁尾
+    footer {
+        padding-bottom: 5px;
+        ul {
+            li {
+                font-size: 1.2em;
+                a{
+                    line-height: 20px;
+                }
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+//頭貼、姓名、社群媒體（社群媒體外面用容器 佔6/12 裡面用flexbox around 改字體顏色）
+
+//輪播圖與nav bar的間距 padding
+
+//技能表格（控制fontawesome外邊界 製造圖示與字之空間）
+
+// 頁尾（控制fontawesome外邊界 製造圖示與字之空間）
