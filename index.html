@@ -101,14 +101,14 @@
                   <div class="carousel-item active">
                     <img src="https://fakeimg.pl/200x100/?retina=1&text=活動照片1&font=noto" class="d-block w-100" alt="活動照片1">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>活動名稱1</h5>
+                      <h5>活動名稱1（e.g. 2024資安365年會）</h5>
                       <p>活動簡述1</p>
                     </div>
                   </div>
                   <div class="carousel-item active">
                     <img src="https://fakeimg.pl/200x100/?retina=1&text=活動照片2&font=noto" class="d-block w-100" alt="活動照片2">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>活動名稱2</h5>
+                      <h5>活動名稱2（e.g. Ruby Conf Taiwan 2023）</h5>
                       <p>活動簡述2</p>
                     </div>
                   </div>
@@ -142,7 +142,7 @@
             <!-- 頭貼與名字 -->
             <div class="avatar-name">
                 <!-- 頭貼 -->
-                <img class="avatar" src="https://fakeimg.pl/200x200/FFA042/FFF/?retina=1&text=頭貼&font=noto" alt="">
+                <img class="avatar" src="https://fakeimg.pl/200x200/FFA042/FFF/?retina=1&text=頭貼&font=noto" alt="頭貼">
                 <!-- 名字 使用Bootsrap字型大小-->
                 <div class="name h1">
                     姓名
@@ -150,11 +150,11 @@
             </div>
             <!-- 社群媒體 使用font awesome-->
             <div class="social-media">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-square-instagram"></i>
-                <i class="fa-brands fa-square-x-twitter"></i>
-                <i class="fa-brands fa-google"></i>
-                <i class="fa-brands fa-linkedin"></i>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             </div>
              <!-- 技能 使用Bootstrap 表格-->
             <div class="h2">技能</div>
@@ -224,12 +224,15 @@
                     </div>
                   </div>
                 </div>
-              </div>
+            </div>
             <!-- GitHub 及 專案 -->
             <div class="GitHub-projects">
                 <!-- GitHub連結按鈕 使用Bootstrap 按鈕 -->
-                <div class="GitHub">
-
+                <div class="GitHub d-grid gap-2 col-6 mx-auto mt-2 mb-2">
+                <!-- Bootstrap d-grid：使按鈕為Block型元素 gap：多按鈕時的間距（0～5） col：佔外層元素寬度比例（0～12） mx（x軸剩下的寬度分配，auto就是置中） mt（margin-top高度）-->
+                    <a href="https://github.com/TamyTsai" class="btn btn-dark btn-lg" role="button">
+                        <i class="fa-brands fa-github"></i>&nbsp;GitHub
+                    </a>
                 </div>
                 <!-- 專案 使用Bootstrap 卡片（Card）、陰影 -->
                 <div class="projects">
