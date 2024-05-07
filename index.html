@@ -178,7 +178,7 @@
             </div>
         </div>
         <!-- 經歷 -->
-        <aside class="experience">
+        <aside class="experience container-lg">
             <!-- 工作經歷 使用Bootstrap 風琴折疊（Accordion）-->
             <div class="h2">工作經歷</div>
             <div class="job-experience accordion" id="accordion">
@@ -228,15 +228,50 @@
             <!-- GitHub 及 專案 -->
             <div class="GitHub-projects">
                 <!-- GitHub連結按鈕 使用Bootstrap 按鈕 -->
-                <div class="GitHub d-grid gap-2 col-6 mx-auto mt-2 mb-2">
+                <div class="GitHub d-grid gap-1 col-6 mx-auto mt-2 mb-2">
                 <!-- Bootstrap d-grid：使按鈕為Block型元素 gap：多按鈕時的間距（0～5） col：佔外層元素寬度比例（0～12） mx（x軸剩下的寬度分配，auto就是置中） mt（margin-top高度）-->
                     <a href="https://github.com/TamyTsai" class="btn btn-dark btn-lg" role="button">
                         <i class="fa-brands fa-github"></i>&nbsp;GitHub
                     </a>
                 </div>
                 <!-- 專案 使用Bootstrap 卡片（Card）、陰影 -->
-                <div class="projects">
-
+                <div class="projects row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card shadow p-2 mb-5 bg-body-tertiary rounded"> <!-- Bootstrap陰影 -->
+                        <img src="https://fakeimg.pl/200x100/?retina=1&text=專案1&font=noto" class="card-img-top" alt="專案1">
+                        <div class="card-body">
+                          <h5 class="card-title">專案名稱1</h5>
+                          <p class="card-text">專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow p-2 mb-5 bg-body-tertiary rounded">
+                        <img src="https://fakeimg.pl/200x100/?retina=1&text=專案2&font=noto" class="card-img-top" alt="專案2">
+                        <div class="card-body">
+                          <h5 class="card-title">專案名稱2</h5>
+                          <p class="card-text">專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow p-2 mb-5 bg-body-tertiary rounded">
+                        <img src="https://fakeimg.pl/200x100/?retina=1&text=專案3&font=noto" class="card-img-top" alt="專案3">
+                        <div class="card-body">
+                          <h5 class="card-title">專案名稱3</h5>
+                          <p class="card-text">專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow p-2 mb-5 bg-body-tertiary rounded">
+                        <img src="https://fakeimg.pl/200x100/?retina=1&text=專案4&font=noto" class="card-img-top" alt="專案4">
+                        <div class="card-body">
+                          <h5 class="card-title">專案名稱4</h5>
+                          <p class="card-text">專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述 專案描述</p>
+                        </div>
+                      </div>
+                    </div>
                 </div>
             </div>
         </aside>
