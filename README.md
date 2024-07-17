@@ -58,5 +58,5 @@ cd resume-template-original-single-page
   - Normalize v8.0.1
   - Font Awesome v6.5.2
   - SCSS
-  - Bootsrap v5.3.3
+  - Bootstrap v5.3.3
   - RWD
