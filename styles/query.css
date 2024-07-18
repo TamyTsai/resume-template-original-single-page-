@@ -13,6 +13,11 @@
     body article .container-lg .row .info .social-media i {
         font-size: 1.3em;
     } /* 避免social-media圖示被擠成兩行 */
+
+    .card-body a {
+        margin-top: 4px;
+    }
+    /* 避免連結按鈕上下排列時 黏在一起 */
 }
 
 @media (max-width: 348px) {
