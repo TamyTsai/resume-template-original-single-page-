@@ -1,6 +1,8 @@
 # 簡歷模版
 網頁展示：[Demo Link](https://tamytsai.github.io/resume-template-original-single-page/)
 
+![截圖 2024-07-18 專案畫面](https://github.com/user-attachments/assets/8002a8c5-0df7-43c6-b9ec-d2041c880102)
+
 ## 關於履歷模版
 - 想尋找軟體工程師工作，可以使用此模版填入資料，製作網頁版的履歷
 
@@ -8,21 +10,23 @@
 - 練習使用Bootstrap框架，及SCSS、RWD之撰寫
 
 ## 專案畫面
-![截圖 2024-05-08 專案畫面](https://github.com/TamyTsai/resume-template-original-single-page-/assets/97825677/813d830e-e1a2-4414-81c1-ceaa7f392f39)
-
-
 ### 瀏覽器畫面
-![截圖 2024-05-08專案畫面1920*1080 1](https://github.com/TamyTsai/resume-template-original-single-page-/assets/97825677/9419e2e8-7df3-40c1-8802-88ab8702aeb4)
-![截圖 2024-05-08 專案畫面1920*1080 2](https://github.com/TamyTsai/resume-template-original-single-page-/assets/97825677/e2ad4472-7926-42aa-b729-9f9b827472ea)
 
+![截圖 2024-07-18 瀏覽器畫面1](https://github.com/user-attachments/assets/0e6bac22-a2bd-479b-a17d-ea48edd723f6)
+
+![截圖 2024-07-18 瀏覽器畫面2](https://github.com/user-attachments/assets/83b8872c-96e6-4f85-abf7-b55303a26bf5)
+
+<hr>
 
 ### 行動裝置畫面
-![截圖 2024-05-08 IphoneSE 1](https://github.com/TamyTsai/resume-template-original-single-page-/assets/97825677/07acef39-c816-4ebf-b674-e6753af6327c)
-![截圖 2024-05-08 IphoneSE 2](https://github.com/TamyTsai/resume-template-original-single-page-/assets/97825677/059807e4-b920-44dc-9948-445ffbbb9372)
-![截圖 2024-05-08 IphoneSE 3](https://github.com/TamyTsai/resume-template-original-single-page-/assets/97825677/a74c78f1-c82b-42a0-8af9-2129c8ef80b4)
-![截圖 2024-05-08 IphoneSE 4](https://github.com/TamyTsai/resume-template-original-single-page-/assets/97825677/da8d9c33-0123-417e-9c27-addcdec17061)
 
+![截圖 2024-07-18 行動裝置畫面1](https://github.com/user-attachments/assets/b4429013-f3a9-4cc0-9c81-2e8e7fb0e89d)
 
+![截圖 2024-07-18 行動裝置畫面 2](https://github.com/user-attachments/assets/e4865e35-8f14-4568-9034-14c60e9afe5a)
+
+![截圖 2024-07-18 行動裝置畫面 3](https://github.com/user-attachments/assets/77d51442-e3a8-4e96-b852-bcaec3d7ccf5)
+
+![截圖 2024-07-18 行動裝置畫面 4](https://github.com/user-attachments/assets/beafce9f-b7b0-4e50-92a7-6781cabf0bd7)
 
 <!-- ## 安裝
 ### 取得專案
